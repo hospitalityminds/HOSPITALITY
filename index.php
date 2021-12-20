@@ -8,7 +8,7 @@ if(isset($_SESSION['is_adminlogin'])){
 else{
 }
 
-?> 
+?>
 
 
 
@@ -47,8 +47,8 @@ else{
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
    <style>
-   
-      
+
+
 #popUpMain{
     position: fixed;
     width: 100%;
@@ -112,7 +112,7 @@ else{
 #popup form input{
     width: 100%;
     padding: 15px 15px;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
     border:none;
     background: #f0f0f0;
     outline: none;
@@ -149,7 +149,7 @@ else{
 
 
 
- 
+
 
 @media (max-width: 550px){
     #popup{
@@ -162,7 +162,7 @@ else{
       font-size: 14px;
     }
 }
-   
+
    </style>
 	    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
@@ -172,8 +172,8 @@ else{
 </head>
 <body>
 
- 
-	
+
+
 
     <div id="popUpMain">
       <div id="popup">
@@ -189,8 +189,8 @@ else{
           </form>
       </div>
    </div>
-	
-	
+
+
 
  <!-- NAVBAR -->
  <nav class="nav1 navbar navbar-expand-lg sticky-top navbar-light">
@@ -268,8 +268,8 @@ else{
       </h2>
     </div>
   </div>
-	
-  
+
+
 
   <section class="intro-2">
     <div class="growth-guaranteed text-center">
@@ -353,12 +353,12 @@ else{
 
 
 
-     
+
   <!-- ****************************    Our services start   *********************************** -->
 
   <section class="services">
       <div class="container">
-          
+
          <h1 class="title">Our Services</h1>
              <div class="course-grid">
 
@@ -497,7 +497,7 @@ else{
                  </div>
                  <!-- **  course-block-end ** -->
 
-                 
+
                   <div class="course-block">
                      <div class="course-img-container gd">
                          <img src="img/homepage-services/graphic-design-bg.jpg" alt="Hospitality Minds">
@@ -737,7 +737,7 @@ else{
     </div>
   </section>
 
-  
+
 
    <!-- **************************   Footer start   ******************************* -->
 
@@ -780,10 +780,12 @@ else{
             <h3>Quick Links</h3>
             <div class="row">
               <div class="col-md-6">
-                <p><a href="index.php">Home</a></p>
+                <p><a href="index.html">Home</a></p>
                 <!-- <p><a href="services.html">Services</a></p> -->
                 <p><a href="expertise.html">Expertise</a></p>
                 <p><a href="portfolio.html">Portfolio</a></p>
+                <p><a href="policies.html">Policies</a>
+                </p>
               </div>
               <div class="col-md-6">
                 <p><a href="career.html">Career</a></p>
@@ -797,9 +799,9 @@ else{
           <div class="col-md-3">
             <h3>Contact Us</h3>
             <p>
-              
+
               <a href="tel: +91 9967333442" style="text-decoration: none; color: aliceblue;">
-                +91 9967333442</a>  
+                +91 9967333442</a>
             </p>
             <p>
               <b>Email :</b>
@@ -834,18 +836,18 @@ else{
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="./js/parallax.min.js"></script>
-  
-  <script src="./js/app.js"></script>
-	  
-	
-  
 
-  
+  <script src="./js/app.js"></script>
+
+
+
+
+
    <script>
 
         document.querySelector('#offers').addEventListener("click",function(){
               let javar = '<?=$email?>';
-              
+
               if(javar != ""){
                 location.href='pricing_packages.php'
               }
@@ -853,7 +855,7 @@ else{
                   document.querySelector('#popUpMain').classList.add("active");
               }
        });
-   
+
    </script>
 
    <script>
@@ -861,7 +863,7 @@ else{
         document.querySelector('#cancel').addEventListener("click",function(){
         document.querySelector('#popUpMain').classList.remove("active");
       });
-      
+
    </script>
 
 
